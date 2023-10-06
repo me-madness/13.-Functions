@@ -1,3 +1,4 @@
 value_list = input().split()
-absolute_values = [abs(float(value_list) for _ in value_list)]
-print(absolute_values)
+new_value = [eval(i) for i in value_list]
+absolute_values = map(abs, new_value)
+print(list(new_value))
