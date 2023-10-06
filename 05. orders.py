@@ -11,7 +11,9 @@ def orders(product, quantity):
     elif product == "snacks":
         return 2.00 * quantity
     else:
-                        
+        return "Product it's not in the list"
+    
+print(orders(product, quantity))                   
         
         
         
